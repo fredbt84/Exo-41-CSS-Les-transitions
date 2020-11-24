@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#container {
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    transition: background-color, height, width;
+    transition-duration: 6s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+#container:hover {
+    background-color: lightgray;
+    height: 30rem;
+    width: 30rem;
+}
+
+#containerParagraphe {
+    width: 20rem;
+    height: 20rem;
+    color: chocolate;
+    font-size: 1rem;
+    transition: color, font-size;
+    transition-duration: 6s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+#containerParagraphe:hover {
+    color: aqua;
+    font-size: 2rem;
+}
+
+#contEssaie {
+    width: 20rem;
+    height: 20rem;
+    font-size: 1rem;
+    color: darkgoldenrod;
+    transition: background-color, color;
+    transition-duration: 3s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+#contEssaie:hover {
+    background-color: darkgreen;
+    color: darkblue;
+}
